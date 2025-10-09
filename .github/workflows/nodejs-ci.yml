@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]   # ✅ Only Node 18 (no 16.x)
 
     steps:
       - name: Checkout code
@@ -28,3 +28,4 @@ jobs:
 
       - name: Run Jest tests
         run: npm test
+
