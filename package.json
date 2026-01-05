@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint.js"
   },
   "keywords": [],
   "author": "Amna",
@@ -16,12 +17,6 @@
   "devDependencies": {
     "jest": "^30.2.0",
     "supertest": "^7.1.4"
-  },
- 
-  "scripts": {
-    "lint": "eslint.js"
   }
-}
-
 }
 
