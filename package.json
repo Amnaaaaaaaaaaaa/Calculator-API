@@ -17,13 +17,7 @@
     "jest": "^30.2.0",
     "supertest": "^7.1.4"
   },
-  // Source - https://stackoverflow.com/a
-// Posted by roxxypoxxy, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-01-05, License - CC BY-SA 3.0
-
-// package.json
-{ 
-  //...
+ 
   "scripts": {
     "lint": "eslint.js"
   }
