@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'github.com' 
+                git branch: 'main', url: 'https://github.com/Amnaaaaaaaaaaaa/Calculator-API.git' 
             }
         }
 
