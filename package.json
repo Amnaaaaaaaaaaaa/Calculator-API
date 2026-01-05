@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "jest",
-    "lint": "eslint.js"
+    "lint": "eslint ."
+
   },
   "keywords": [],
   "author": "Amna",
