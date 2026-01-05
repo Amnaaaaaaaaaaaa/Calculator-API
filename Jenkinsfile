@@ -10,15 +10,15 @@ pipeline {
 
         stage('Install Dependencies and Run Tests') {
             steps {
-                sh 'npm install'
-                sh 'npm run lint'
-                sh 'npm test'
+                bat 'npm install'
+                bat 'npm run lint'
+                bat 'npm test'
             }
         }
 
         stage('Archive Artifacts') {
             steps {
-                sh 'zip -r build.zip dist'
+                bat 'zip -r build.zip dist'
                 archiveArtifacts artifacts: 'build.zip', onlyIfSuccessful: true 
             }
         }
