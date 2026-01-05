@@ -11,6 +11,7 @@ pipeline {
         stage('Install Dependencies and Run Tests') {
             steps {
                 bat 'npm install'
+                bat 'npm run lint'
                 bat 'npm test'
             }
         }
